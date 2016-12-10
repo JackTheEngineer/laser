@@ -1,0 +1,32 @@
+(TeX-add-style-hook
+ "auswertung"
+ (lambda ()
+   (LaTeX-add-labels
+    "diode"
+    "kennpump"
+    "gl_wirk"
+    "wirkung"
+    "slope"
+    "aut1"
+    "aut2"
+    "pol"
+    "winkel"
+    "sinc"
+    "pol9"
+    "pol2"
+    "1266nm"
+    "1286nm"
+    "kalib"
+    "abstand"
+    "wellenlänge"
+    "test"
+    "flour"
+    "ueb"
+    "laser"
+    "spek1"
+    "lasery"
+    "breite"
+    "beweis"
+    "umrechnung"))
+ :latex)
+

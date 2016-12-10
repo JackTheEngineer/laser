@@ -14,14 +14,14 @@ Der Detektor hat dabei nicht die einfallende Leistung, sondern lediglich die Zah
 1 \text{ Count}\equiv0.006\text{W}
 \end{equation}
 Wie leicht zu erkennen ist, gibt es bis zu einem Strom von 8 A keine Nennenswerte Strahlleistung. Dies entpricht nicht ganz der Realität, da aufgrund der hohen Sensivität des Detektors wurden Filter in den Strahlengang gestellt um eine Sättigung zu verhindern. Wie später zu sehen ist, erzeugt die Diode auch in diesem Strombereich, dem Floureszenzbereich, Strahlung, die hier allerdings unterdrückt wird.  \newline
-Erhöht man den Strom weiter steigt die Laserleistung langsam bis man ab einem Strom von 9.5A die Lasertätigkeit erreicht hat, in der die Laserleistung der Diode linear mit dem Strom ansteigt. \newline
+Erhöht man den Strom weiter, steigt die Laserleistung langsam an, bis man ab einem Strom von 9.5A die Lasertätigkeit erreicht hat, in der die Laserleistung der Diode linear mit dem Strom ansteigt. \newline
 Der offensichtlich aus der Reihe fallende Wert bei einem Strom von 16.5A beruht wahrscheinlich auf einem falschen Ablesen, er wird aber nicht weiter berücksichtigt, da er die Berechnung weiterer Ergebnisse nicht oder zumindest nicht merklich stört. \newline
-Zur Ermittlung des Wirkungsgrades 
+Zur Ermittlung des Wirkungsgrades, 
 \begin{equation}
 \eta=\frac{P_{out}}{P_{in}}=\frac{P_{out}}{U\cdot I}\Longrightarrow P_{out}=\eta P_{in}
 \label{gl_wirk}
 \end{equation}
-,also dem Verhältnis zwischen der Leistung die in das System gesteckt wurde und der erhaltenen Leistung wird nur der Bereich der Lasertätigkeit von 9.5A bis 20A betrachtet. Die aufgebrachte Leistung entspricht hier der elektrischen bei einer Spannung von 1.8V und dem jeweils eingestellten Strom. Trägt man diese beiden Leistungen gegeneinander auf so ergibt sich \newline Abbildung \ref{wirkung}
+also dem Verhältnis zwischen der Leistung die in das System gesteckt wurde und der erhaltenen Leistung wird nur der Bereich der Lasertätigkeit von 9.5A bis 20A betrachtet. Die aufgebrachte Leistung entspricht hier der elektrischen bei einer Spannung von 1.8V und dem jeweils eingestellten Strom. Trägt man diese beiden Leistungen gegeneinander auf so ergibt sich \newline Abbildung \ref{wirkung}
 \begin{figure}[H]
 	\begin{center}
 		\includegraphics[scale=.5]{Bilder/Wirkungsgrad.png}
@@ -198,7 +198,7 @@ In Abbildung \ref{laser} schließlich ist ein sehr hoher und schmaler Peak zu se
 Als letztes wurde das Spektrum des Nd:YLF-Lasers gemessen, welches in  Abbildung \ref{lasery} zu sehen ist
 \begin{figure}[H]
 	\begin{center}
-		\includegraphics[scale=.5]{Bilder/Lasery.png}
+		\includegraphics[scale=.5]{Bilder/LaserY.png}
 		\caption{Spektrum des Nd:YLF-Lasers}
 		\label{lasery}
 	\end{center}
@@ -227,3 +227,9 @@ Als letzes lässt sich nun zusammen mit Hilfe der aus der Autokorrelation bestim
 \begin{equation}
 \delta_r\cdot\tau=5.09\cdot10^{-12}\ll 0.441
 \end{equation}
+
+
+%%% Local Variables:
+%%% mode: latex
+%%% TeX-master: "../Laser"
+%%% End:
