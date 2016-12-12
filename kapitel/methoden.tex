@@ -47,7 +47,7 @@ Für eine Laseraktivität muss gelten $\sfrac{I_1}{I_0} > 1$, und somit
 
 \paragraph{Nd:YFL Laser}
 Der im Versuch Verwendete Laser hat ein Neodym-Ion als aktives Material.
-Das äußerste elektron hat dabei vier Energieniveaus zur Verfügung stehen.
+Das äußerste Elektron hat dabei vier Energieniveaus zur Verfügung stehen.
 Mit Pumplicht aus einer Halbleiterdiode werden die Elektronen im Pumpmaterial
 vom niedrigsten Zustand $\ket{1}$ in den Zustand $\ket{4}$ angeregt. Der Übergang des
 vom Zustand $\ket{4}$ in den langlebigen Zustand $\ket{3}$ erfolgt sehr
@@ -58,23 +58,62 @@ nach einem Durchlauf führt.
 
 \subsection{Erzeugung von Ultrakurz-Lichpulsen}
 In dem vorher beschriebenen Resonator aus Spiegeln mit der Länge $L$
-entstehen elektromagnetische stehende Longitudinalwellen mit den Wellenlängen
+entstehen stehende elektromagnetische Longitudinalwellen mit den Wellenlängen
 \begin{equation}
-  2L = n\lambda_n
+  2L = n \cdot \lambda_n
   \label{equ:resonance}
 \end{equation}
-mit dem Kreisfrequenzabstand $\triangle \omega = \sfrac{\pi c}{L}$.
+mit dem Kreisfrequenzabstand $\triangle \omega = \sfrac{\pi c}{L}$. 
 Im Resonator wird aber nur ein Teil aller Wellen welche die Bedingung \ref{equ:resonance}
-erfüllen, verstärkt. Durch periodische Transmission des Elektromagnetischen Feldes mit einer
-Frequenz $\Omega$ durch einen Quarzkristall, erzeugt man zusätzliche Seitenbänder mit
-der Kreisfrequenz $\omega \pm \Omega$.
-Durch Interferenzeffekte bringt man somit alle Longitudinalmoden in eine feste Phasenbeziehung
+erfüllen, verstärkt. 
+Erzeugt man akustiche Schwingungen mit der Frequenz $\Omega$ in einem Quarzkristall, 
+und setzt diesen Quarzkristall in die Resonatorstrecke, so werden durch periodische Transmission
+der Kreisfrequenz $\omega_n \pm \Omega$. Ist dabei $\Omega = \triangle \omega$
+bringt man durch Interferenzeffekte alle Longitudinalmoden in eine feste Phasenbeziehung
 und erzeugt damit starke Peaks des elektromagetischen Feldes, Ultrakurzpulse.
 Dabei hängt die Dauer und intensität von der Anzahl der gekoppelten Moden ab.
 Je breitbandiger der Laser ist, umso mehr Moden können miteinander gekoppelt werden,
 und umso kürzer ist der Peak.
 
 \subsection{Optisch nichtlineare Materialien}
+\paragraph{Lineare Optik}
+In der klassischen Optik ist die Polarisation eines Dielektrikums linear proportional zur
+elektrischen Feldstärke. Dabei ist $\chi_0$ die elektrische Suszeptibilität, also das Verhältnis,
+wie sich die Polarisation in Abhängigkeit des elektrischen Feldes im Material ändert.
+\begin{equation}
+  \va{P}(\va{E}) = \epsilon_0\bigg(\sum_j \chi^{(1)}_{ij} E_j\bigg)
+\end{equation}
+Die partielle Differenzialgleichung in einer dimension für das elektrische Feld lautet dabei:
+\begin{equation}
+  \pdv[2]{E}{x} - \frac{\epsilon_0(1+\chi^{(1)})}{c}\pdv[2]{E}{t} = 0
+\end{equation}
+Diese Differenzialgleichung wird durch gelöst, durch ein Elektrisches Feld in Form ebener Wellen gelöst:
+\begin{equation}
+  E = E_0\exp{i(\omega t - k_{\omega}x)} + C
+\end{equation}
+
+\paragraph{Nichtlineare Optik}
+In der nichtlinearen Optik wird die durch verschiedende Quanteneffekte beeinflusste Polarisation
+eines mittels eines Taylorpolynoms approximiert.
+\begin{align*}
+  \va{P}(\va{E}) &= \epsilon_0\bigg(&\sum_j  \chi^{(1)}_{ij} E_j  &+  \sum_{jk} \chi_{ijk}^{(2)} E_j E_k + \sum_{jk\ell} \chi_{ijk\ell}^{(3)} E_j E_k E_\ell &+ \cdots \bigg)\\
+  \va{P}(\va{E}) &= &\va{P_L}\ \  &+\ \ \va{P_{NL}}&
+\end{align*}
+Dabei lässt sich die Polarisation in den linearen Anteil $\va{P_L}$ und einen nichlinearen Anteil $\va{P_{NL}}$ zerlegen.
+Die partielle Differenzialgleichung lässt sich mit einer zusätzlichen Störung schreiben:
+\begin{equation}
+  \pdv[2]{E}{x} - \frac{\epsilon_0(1+\chi^{(1)})}{c}\pdv[2]{E}{t} = \frac{1}{c}\pdv[2]{P_{NL}}{t}
+  \label{equ:Nl-dgl}
+\end{equation}
+\paragraph{Erzeugung der zweiten harmonischen}
+Betrachtet man nur die nichtlinearität zweiter Ordnung, so verweinfacht sich die Gleichung \ref{equ:Nl-dgl}
+zu Gleichung \ref{equ:secondorder_harmonic_generation}
+\begin{equation}
+  \pdv[2]{E}{x} - \frac{\epsilon_0(1+\chi^{(1)})}{c}\pdv[2]{E}{t} = \frac{\epsilon_0}{c}\pdv[2]{\chi^{(2)}E^2}{t}
+  \label{equ:secondorder_harmonic_generation}
+\end{equation}
+Der Quellterm $\frac{\epsilon_0}{c}\pdv[2]{\chi^{(2)}E^2}{t}$ sorgt für eine induzierte Oszillation mit der doppelten Frequenz $2\omega$.
+
 
 
 
