@@ -96,8 +96,8 @@ Diese Differenzialgleichung wird durch gelöst, durch ein Elektrisches Feld in F
 In der nichtlinearen Optik wird die durch verschiedende Quanteneffekte beeinflusste Polarisation
 eines mittels eines Taylorpolynoms approximiert.
 \begin{align*}
-  \va{P}(\va{E}) &= \epsilon_0\bigg(&\sum_j  \chi^{(1)}_{ij} E_j  &+  \sum_{jk} \chi_{ijk}^{(2)} E_j E_k + \sum_{jk\ell} \chi_{ijk\ell}^{(3)} E_j E_k E_\ell &+ \cdots \bigg)\\
-  \va{P}(\va{E}) &= &\va{P_L}\ \  &+\ \ \va{P_{NL}}&
+  \va{P}(\va{E}) &= \epsilon_0\bigg(&\sum_j  \chi^{(1)}_{ij} E_j  &+  \sum_{jk} \chi_{ijk}^{(2)} E_j E_k + \sum_{jk\ell} \chi_{ijk\ell}^{(3)} E_j E_k E_\ell + \cdots \bigg)\\
+  \va{P}(\va{E}) &= &\va{P_L}\ \ \ \  &+\ \ \ \ \va{P_{NL}}
 \end{align*}
 Dabei lässt sich die Polarisation in den linearen Anteil $\va{P_L}$ und einen nichlinearen Anteil $\va{P_{NL}}$ zerlegen.
 Die partielle Differenzialgleichung lässt sich mit einer zusätzlichen Störung schreiben:
@@ -114,7 +114,39 @@ zu Gleichung \ref{equ:secondorder_harmonic_generation}
 \end{equation}
 Der Quellterm $\frac{\epsilon_0}{c}\pdv[2]{\chi^{(2)}E^2}{t}$ sorgt für eine induzierte Oszillation mit der doppelten Frequenz $2\omega$.
 
+\subsection{Doppelbrechung}
+Doppelbrechung ist der Effekt unterschiedlichder Brechungsindizes $n$ in Abhängigkeit von
+der Polarisationsrichtung des Lichtes im Bezug zu einer festen Ebene im doppelbrechenden Kristall. Dieser Effekt ensteht dadurch dass die atomaren Strukturen im Kristall nicht rotationssymmetrisch sind. Mathematisch
+lässt sich erläutern, dass die elektrische Suszeptibilität im allgemeinen ein Tensor ist, und somit Richtungseingenschaften aufweist. 
+Bei einem optischen Kristall ist es enscheidend, dass die Brechungsindizes und damit die Lichtgeschwindigkeiten
+im Material jeweils die selben für die Grund- als auch die Oberschwingung sind. Ist das nicht der Fall,
+so interferiert die am Ort $x$ erzeuge zweite harmonische Welle mit der am Ort $x + \triangle x$ erzeugen Welle und löscht sich aus.
+Gewisse Materialien wie ein Einkristall von $\beta$-Bariumoxid sind doppelbrechend und optisch aktiv,
+und lassen sich damit gut für die Erzeugung der zweiten harmonischen bei gepulsten Lasern nutzen.
 
+\subsection{Autokorrelationsmessung}
+Bei Lichtpulsen im Femptisekundenbereich ist jegliche Elektronik zu langsam, um die Halbwertsbreite
+eines solchen Lichtpulses zu bestimmen. Um dieses Problem zu umgehen, 'tastet' man den Puls mit sich selber ab.
+Dabei wird Lichtpuls mit einem halbdurchlässigen Spiegel gespalten, ein Teil des Pulses durchläuft eine feste Strecke und der andere Teil eine veränderbare Strecke. Danach werden die beiden Pulse wieder zusammengeführt.
+Das führt dazu, dass ein genau kontrollierbar zeitlich versetzt zum anderen kommt.
+Lässt man beide nun durch einen optisch aktiven Kristall $\beta$-Bariumoxid laufen, so ist die Intensitität der zweiten Harmonischen proportional zur mathematischen Faltung der beiden Peak-Kurven.
+\begin{equation}
+  W_{2\omega} \propto \int_{-\infty}^{\infty}{I_L(t)I_L(t-t_D)\dd{t}}
+  \label{equ:autocorr}
+\end{equation}
+Dabei beschreibt die Funktion $I_L$ die ursprüngliche Form des elektromagnetischen Pulses.
+Verwendet man dabei die Näherung des Peaks als eine Gaussfunktion,
+\begin{equation}
+  I_L = I_0 \cdot e^{-\big(\frac{2\sqrt{\ln(2)}t}{\tau}\big)^2} = I_0 \cdot e^{-At^2}
+  \label{equ:gauss_curve}
+\end{equation}
+So ergeben Gleichungen \ref{equ:autocorr} und \ref{equ:gauss_curve}:
+
+\begin{align*}
+  W_{2\omega} & \propto \int_{-\infty}^{\infty} e^{-At^2} e^{-A(t-t_D)^2} \dd{t} \\
+  & = e^{-\frac{A}{2} t_D^2} \cdot \int_{-\infty}^{\infty} e^{-2At^2} \dd{t}
+\end{align*}
+Damit lässt sich die Halbwertsbreite der Gaussfunktion bestimmen.
 
 
 %%% Local Variables:
