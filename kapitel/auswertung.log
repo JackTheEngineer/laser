@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.10.23)  5 DEC 2016 17:53
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.10.23)  17 DEC 2016 12:24
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -321,13 +321,13 @@ Type  H <return>  for immediate help.
  ...                                              
                                                   
 l.6 \begin{figure}
-                  [h]
+                  [H]
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 Missing character: There is no [ in font nullfont!
-Missing character: There is no h in font nullfont!
+Missing character: There is no H in font nullfont!
 Missing character: There is no ] in font nullfont!
 ! Undefined control sequence.
 l.8 		\includegraphics
@@ -1198,6 +1198,7 @@ Missing character: There is no i in font nullfont!
 Missing character: There is no t in font nullfont!
 Missing character: There is no e in font nullfont!
 Missing character: There is no r in font nullfont!
+Missing character: There is no , in font nullfont!
 Missing character: There is no s in font nullfont!
 Missing character: There is no t in font nullfont!
 Missing character: There is no e in font nullfont!
@@ -1227,6 +1228,9 @@ Missing character: There is no g in font nullfont!
 Missing character: There is no s in font nullfont!
 Missing character: There is no a in font nullfont!
 Missing character: There is no m in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no , in font nullfont!
 Missing character: There is no b in font nullfont!
 Missing character: There is no i in font nullfont!
 Missing character: There is no s in font nullfont!
@@ -1582,13 +1586,13 @@ Missing character: There is no a in font nullfont!
 Missing character: There is no d in font nullfont!
 Missing character: There is no e in font nullfont!
 Missing character: There is no s in font nullfont!
+Missing character: There is no , in font nullfont!
 
 Overfull \hbox (149.36038pt too wide) detected at line 23
 \OML/cmm/m/it/10 ^^Q \OT1/cmr/m/n/10 = [] = [] [][]\OMS/cmsy/m/n/10 ) \OML/cmm/
 m/it/10 P[] \OT1/cmr/m/n/10 = \OML/cmm/m/it/10 ^^QP[][]
  []
 
-Missing character: There is no , in font nullfont!
 Missing character: There is no a in font nullfont!
 Missing character: There is no l in font nullfont!
 Missing character: There is no s in font nullfont!
@@ -1932,13 +1936,13 @@ Type  H <return>  for immediate help.
  ...                                              
                                                   
 l.25 \begin{figure}
-                   [h]
+                   [H]
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 Missing character: There is no [ in font nullfont!
-Missing character: There is no h in font nullfont!
+Missing character: There is no H in font nullfont!
 Missing character: There is no ] in font nullfont!
 
 Overfull \hbox (10.86105pt too wide) in paragraph at lines 23--26
@@ -1947,7 +1951,7 @@ Overfull \hbox (10.86105pt too wide) in paragraph at lines 23--26
 
 ! Undefined control sequence.
 l.27 		\includegraphics
-                       [scale=.5]{Wirkungsgrad.png}
+                       [scale=.5]{Bilder/Wirkungsgrad.png}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -1964,6 +1968,13 @@ Missing character: There is no = in font nullfont!
 Missing character: There is no . in font nullfont!
 Missing character: There is no 5 in font nullfont!
 Missing character: There is no ] in font nullfont!
+Missing character: There is no B in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no / in font nullfont!
 Missing character: There is no W in font nullfont!
 Missing character: There is no i in font nullfont!
 Missing character: There is no r in font nullfont!
@@ -2704,13 +2715,13 @@ Type  H <return>  for immediate help.
  ...                                              
                                                   
 l.38 \begin{figure}
-                   [h]
+                   [H]
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 Missing character: There is no [ in font nullfont!
-Missing character: There is no h in font nullfont!
+Missing character: There is no H in font nullfont!
 Missing character: There is no ] in font nullfont!
 
 Overfull \hbox (10.86105pt too wide) in paragraph at lines 35--39
@@ -2719,7 +2730,7 @@ Overfull \hbox (10.86105pt too wide) in paragraph at lines 35--39
 
 ! Undefined control sequence.
 l.40 		\includegraphics
-                       [scale=.5]{slope.png}
+                       [scale=.5]{Bilder/slope.png}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -2736,6 +2747,13 @@ Missing character: There is no = in font nullfont!
 Missing character: There is no . in font nullfont!
 Missing character: There is no 5 in font nullfont!
 Missing character: There is no ] in font nullfont!
+Missing character: There is no B in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no / in font nullfont!
 Missing character: There is no s in font nullfont!
 Missing character: There is no l in font nullfont!
 Missing character: There is no o in font nullfont!
@@ -3407,13 +3425,13 @@ Type  H <return>  for immediate help.
  ...                                              
                                                   
 l.51 \begin{figure}
-                   [h]
+                   [H]
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 Missing character: There is no [ in font nullfont!
-Missing character: There is no h in font nullfont!
+Missing character: There is no H in font nullfont!
 Missing character: There is no ] in font nullfont!
 
 Overfull \hbox (7.25377pt too wide) in paragraph at lines 48--52
@@ -3422,7 +3440,7 @@ Overfull \hbox (7.25377pt too wide) in paragraph at lines 48--52
 
 ! Undefined control sequence.
 l.53 		\includegraphics
-                       [scale=.5]{Autokorr1.png}
+                       [scale=.5]{Bilder/Autokorr1.png}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -3439,6 +3457,13 @@ Missing character: There is no = in font nullfont!
 Missing character: There is no . in font nullfont!
 Missing character: There is no 5 in font nullfont!
 Missing character: There is no ] in font nullfont!
+Missing character: There is no B in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no / in font nullfont!
 Missing character: There is no A in font nullfont!
 Missing character: There is no u in font nullfont!
 Missing character: There is no t in font nullfont!
@@ -3984,13 +4009,13 @@ Type  H <return>  for immediate help.
  ...                                              
                                                   
 l.59 \begin{figure}
-                   [h]
+                   [H]
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 Missing character: There is no [ in font nullfont!
-Missing character: There is no h in font nullfont!
+Missing character: There is no H in font nullfont!
 Missing character: There is no ] in font nullfont!
 
 Overfull \hbox (10.86105pt too wide) in paragraph at lines 58--60
@@ -4014,7 +4039,7 @@ Overfull \hbox (10.86105pt too wide) in paragraph at lines 58--60
 
 ! Undefined control sequence.
 l.61 		\includegraphics
-                       [scale=.5]{Autokorr2.png}
+                       [scale=.5]{Bilder/Autokorr2.png}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -4031,6 +4056,13 @@ Missing character: There is no = in font nullfont!
 Missing character: There is no . in font nullfont!
 Missing character: There is no 5 in font nullfont!
 Missing character: There is no ] in font nullfont!
+Missing character: There is no B in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no / in font nullfont!
 Missing character: There is no A in font nullfont!
 Missing character: There is no u in font nullfont!
 Missing character: There is no t in font nullfont!
@@ -6313,13 +6345,13 @@ Type  H <return>  for immediate help.
  ...                                              
                                                   
 l.99 \begin{figure}
-                   [h]
+                   [H]
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 Missing character: There is no [ in font nullfont!
-Missing character: There is no h in font nullfont!
+Missing character: There is no H in font nullfont!
 Missing character: There is no ] in font nullfont!
 
 Overfull \hbox (10.86105pt too wide) in paragraph at lines 97--100
@@ -6328,7 +6360,7 @@ Overfull \hbox (10.86105pt too wide) in paragraph at lines 97--100
 
 ! Undefined control sequence.
 l.101 		\includegraphics
-                        [scale=.5]{Winkel.png}
+                        [scale=.5]{Bilder/Winkel.png}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -6345,6 +6377,13 @@ Missing character: There is no = in font nullfont!
 Missing character: There is no . in font nullfont!
 Missing character: There is no 5 in font nullfont!
 Missing character: There is no ] in font nullfont!
+Missing character: There is no B in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no / in font nullfont!
 Missing character: There is no W in font nullfont!
 Missing character: There is no i in font nullfont!
 Missing character: There is no n in font nullfont!
@@ -7877,13 +7916,13 @@ Type  H <return>  for immediate help.
  ...                                              
                                                   
 l.139 \begin{figure}
-                    [h]
+                    [H]
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 Missing character: There is no [ in font nullfont!
-Missing character: There is no h in font nullfont!
+Missing character: There is no H in font nullfont!
 Missing character: There is no ] in font nullfont!
 
 Overfull \hbox (10.86105pt too wide) in paragraph at lines 137--140
@@ -7892,7 +7931,7 @@ Overfull \hbox (10.86105pt too wide) in paragraph at lines 137--140
 
 ! Undefined control sequence.
 l.141 		\includegraphics
-                        [scale=.5]{IntPol9.png}
+                        [scale=.5]{Bilder/IntPol9.png}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -7909,6 +7948,13 @@ Missing character: There is no = in font nullfont!
 Missing character: There is no . in font nullfont!
 Missing character: There is no 5 in font nullfont!
 Missing character: There is no ] in font nullfont!
+Missing character: There is no B in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no / in font nullfont!
 Missing character: There is no I in font nullfont!
 Missing character: There is no n in font nullfont!
 Missing character: There is no t in font nullfont!
@@ -8374,13 +8420,13 @@ Type  H <return>  for immediate help.
  ...                                              
                                                   
 l.147 \begin{figure}
-                    [h]
+                    [H]
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 Missing character: There is no [ in font nullfont!
-Missing character: There is no h in font nullfont!
+Missing character: There is no H in font nullfont!
 Missing character: There is no ] in font nullfont!
 
 Overfull \hbox (10.86105pt too wide) in paragraph at lines 146--148
@@ -8394,7 +8440,7 @@ Overfull \hbox (10.86105pt too wide) in paragraph at lines 146--148
 
 ! Undefined control sequence.
 l.149 		\includegraphics
-                        [scale=.5]{IntPol2.png}
+                        [scale=.5]{Bilder/IntPol2.png}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -8411,6 +8457,13 @@ Missing character: There is no = in font nullfont!
 Missing character: There is no . in font nullfont!
 Missing character: There is no 5 in font nullfont!
 Missing character: There is no ] in font nullfont!
+Missing character: There is no B in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no / in font nullfont!
 Missing character: There is no I in font nullfont!
 Missing character: There is no n in font nullfont!
 Missing character: There is no t in font nullfont!
@@ -8496,167 +8549,6 @@ Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-
-! LaTeX Error: The font size command \normalsize is not defined:
-               there is probably something wrong with the class file.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.154 \newpage
-              
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-[1
-! Undefined control sequence.
-<write> \newlabel{diode}{{}{\thepage 
-                                     }}
-l.154 \newpage
-              
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-\newlabel{diode}{{}{}}
-{/usr/local/texlive/2016/texmf-var/fonts/map/pdftex/updmap/pdftex.map}
-! Undefined control sequence.
-<write> \newlabel{kennpump}{{}{\thepage 
-                                        }}
-l.154 \newpage
-              
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-\newlabel{kennpump}{{}{}}
-! Undefined control sequence.
-<write> \newlabel{gl_wirk}{{2}{\thepage 
-                                        }}
-l.154 \newpage
-              
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-\newlabel{gl_wirk}{{2}{}}
-! Undefined control sequence.
-<write> \newlabel{wirkung}{{}{\thepage 
-                                       }}
-l.154 \newpage
-              
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-\newlabel{wirkung}{{}{}}
-! Undefined control sequence.
-<write> \newlabel{slope}{{}{\thepage 
-                                     }}
-l.154 \newpage
-              
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-\newlabel{slope}{{}{}}
-! Undefined control sequence.
-<write> \newlabel{aut1}{{}{\thepage 
-                                    }}
-l.154 \newpage
-              
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-\newlabel{aut1}{{}{}}
-! Undefined control sequence.
-<write> \newlabel{aut2}{{}{\thepage 
-                                    }}
-l.154 \newpage
-              
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-\newlabel{aut2}{{}{}}
-! Undefined control sequence.
-<write> \newlabel{pol}{{7}{\thepage 
-                                    }}
-l.154 \newpage
-              
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-\newlabel{pol}{{7}{}}
-! Undefined control sequence.
-<write> \newlabel{winkel}{{}{\thepage 
-                                      }}
-l.154 \newpage
-              
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-\newlabel{winkel}{{}{}}
-! Undefined control sequence.
-<write> \newlabel{sinc}{{10}{\thepage 
-                                      }}
-l.154 \newpage
-              
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-\newlabel{sinc}{{10}{}}
-! Undefined control sequence.
-<write> \newlabel{pol9}{{}{\thepage 
-                                    }}
-l.154 \newpage
-              
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-\newlabel{pol9}{{}{}}
-! Undefined control sequence.
-<write> \newlabel{pol2}{{}{\thepage 
-                                    }}
-l.154 \newpage
-              
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-\newlabel{pol2}{{}{}}
-]
 ! Undefined control sequence.
 l.155 \subsection
                  {Spektralanalyse der Laser}
@@ -9424,13 +9316,13 @@ Type  H <return>  for immediate help.
  ...                                              
                                                   
 l.158 \begin{figure}
-                    [h]
+                    [H]
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 Missing character: There is no [ in font nullfont!
-Missing character: There is no h in font nullfont!
+Missing character: There is no H in font nullfont!
 Missing character: There is no ] in font nullfont!
 
 Overfull \hbox (20.0pt too wide) in paragraph at lines 155--159
@@ -9449,7 +9341,7 @@ Overfull \hbox (10.86105pt too wide) in paragraph at lines 155--159
 
 ! Undefined control sequence.
 l.160 		\subfigure
-                  [1266 nm]{\includegraphics[scale=.29]{Kal1.png}\label{1266...
+                  [1266 nm]{\includegraphics[scale=0.29]{Bilder/Kal1.png}\la...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -9466,7 +9358,7 @@ Missing character: There is no m in font nullfont!
 Missing character: There is no ] in font nullfont!
 ! Undefined control sequence.
 l.160 		\subfigure[1266 nm]{\includegraphics
-                                            [scale=.29]{Kal1.png}\label{1266...
+                                            [scale=0.29]{Bilder/Kal1.png}\la...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -9480,10 +9372,18 @@ Missing character: There is no a in font nullfont!
 Missing character: There is no l in font nullfont!
 Missing character: There is no e in font nullfont!
 Missing character: There is no = in font nullfont!
+Missing character: There is no 0 in font nullfont!
 Missing character: There is no . in font nullfont!
 Missing character: There is no 2 in font nullfont!
 Missing character: There is no 9 in font nullfont!
 Missing character: There is no ] in font nullfont!
+Missing character: There is no B in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no / in font nullfont!
 Missing character: There is no K in font nullfont!
 Missing character: There is no a in font nullfont!
 Missing character: There is no l in font nullfont!
@@ -9494,7 +9394,7 @@ Missing character: There is no n in font nullfont!
 Missing character: There is no g in font nullfont!
 ! Undefined control sequence.
 l.161 		\subfigure
-                  [1286 nm]{\includegraphics[scale=.29]{Kal2.png}\label{1286...
+                  [1286 nm]{\includegraphics[scale=0.29]{Bilder/Kal2.png}\la...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -9511,7 +9411,7 @@ Missing character: There is no m in font nullfont!
 Missing character: There is no ] in font nullfont!
 ! Undefined control sequence.
 l.161 		\subfigure[1286 nm]{\includegraphics
-                                            [scale=.29]{Kal2.png}\label{1286...
+                                            [scale=0.29]{Bilder/Kal2.png}\la...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -9525,10 +9425,18 @@ Missing character: There is no a in font nullfont!
 Missing character: There is no l in font nullfont!
 Missing character: There is no e in font nullfont!
 Missing character: There is no = in font nullfont!
+Missing character: There is no 0 in font nullfont!
 Missing character: There is no . in font nullfont!
 Missing character: There is no 2 in font nullfont!
 Missing character: There is no 9 in font nullfont!
 Missing character: There is no ] in font nullfont!
+Missing character: There is no B in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no / in font nullfont!
 Missing character: There is no K in font nullfont!
 Missing character: There is no a in font nullfont!
 Missing character: There is no l in font nullfont!
@@ -10553,13 +10461,13 @@ Type  H <return>  for immediate help.
  ...                                              
                                                   
 l.176 \begin{figure}
-                    [h]
+                    [H]
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 Missing character: There is no [ in font nullfont!
-Missing character: There is no h in font nullfont!
+Missing character: There is no H in font nullfont!
 Missing character: There is no ] in font nullfont!
 
 Overfull \hbox (16.92264pt too wide) in paragraph at lines 174--177
@@ -10588,7 +10496,7 @@ Overfull \hbox (10.86105pt too wide) in paragraph at lines 174--177
 
 ! Undefined control sequence.
 l.178 		\includegraphics
-                        [scale=.5]{Test.png}
+                        [scale=.5]{Bilder/Test.png}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -10605,6 +10513,13 @@ Missing character: There is no = in font nullfont!
 Missing character: There is no . in font nullfont!
 Missing character: There is no 5 in font nullfont!
 Missing character: There is no ] in font nullfont!
+Missing character: There is no B in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no / in font nullfont!
 Missing character: There is no T in font nullfont!
 Missing character: There is no e in font nullfont!
 Missing character: There is no s in font nullfont!
@@ -12473,13 +12388,13 @@ Type  H <return>  for immediate help.
  ...                                              
                                                   
 l.187 \begin{figure}
-                    [h]
+                    [H]
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 Missing character: There is no [ in font nullfont!
-Missing character: There is no h in font nullfont!
+Missing character: There is no H in font nullfont!
 Missing character: There is no ] in font nullfont!
 
 Overfull \hbox (10.86105pt too wide) in paragraph at lines 183--188
@@ -12518,7 +12433,7 @@ Overfull \hbox (10.86105pt too wide) in paragraph at lines 183--188
 
 ! Undefined control sequence.
 l.190 		\subfigure
-                  [Floureszenzbereich]{\includegraphics[scale=.29]{Flouresze...
+                  [Floureszenzbereich]{\includegraphics[scale=.29]{Bilder/Fl...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -12547,7 +12462,7 @@ Missing character: There is no h in font nullfont!
 Missing character: There is no ] in font nullfont!
 ! Undefined control sequence.
 l.190 ...gure[Floureszenzbereich]{\includegraphics
-                                                  [scale=.29]{Floureszenz.pn...
+                                                  [scale=.29]{Bilder/Floures...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -12565,6 +12480,13 @@ Missing character: There is no . in font nullfont!
 Missing character: There is no 2 in font nullfont!
 Missing character: There is no 9 in font nullfont!
 Missing character: There is no ] in font nullfont!
+Missing character: There is no B in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no / in font nullfont!
 Missing character: There is no F in font nullfont!
 Missing character: There is no l in font nullfont!
 Missing character: There is no o in font nullfont!
@@ -12582,7 +12504,7 @@ Missing character: There is no n in font nullfont!
 Missing character: There is no g in font nullfont!
 ! Undefined control sequence.
 l.191 		\subfigure
-                  [Übergangsbereich]{\includegraphics[scale=.29]{Uebergang....
+                  [Übergangsbereich]{\includegraphics[scale=.29]{Bilder/Ueb...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -12610,7 +12532,7 @@ Missing character: There is no h in font nullfont!
 Missing character: There is no ] in font nullfont!
 ! Undefined control sequence.
 l.191 ...igure[Übergangsbereich]{\includegraphics
-                                                  [scale=.29]{Uebergang.png}...
+                                                  [scale=.29]{Bilder/Ueberga...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -12628,6 +12550,13 @@ Missing character: There is no . in font nullfont!
 Missing character: There is no 2 in font nullfont!
 Missing character: There is no 9 in font nullfont!
 Missing character: There is no ] in font nullfont!
+Missing character: There is no B in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no / in font nullfont!
 Missing character: There is no U in font nullfont!
 Missing character: There is no e in font nullfont!
 Missing character: There is no b in font nullfont!
@@ -12643,7 +12572,7 @@ Missing character: There is no n in font nullfont!
 Missing character: There is no g in font nullfont!
 ! Undefined control sequence.
 l.192 		\subfigure
-                  [Laserbereich]{\includegraphics[scale=.29]{Laser.png}\labe...
+                  [Laserbereich]{\includegraphics[scale=.29]{Bilder/Laser.pn...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -12666,7 +12595,7 @@ Missing character: There is no h in font nullfont!
 Missing character: There is no ] in font nullfont!
 ! Undefined control sequence.
 l.192 		\subfigure[Laserbereich]{\includegraphics
-                                                 [scale=.29]{Laser.png}\labe...
+                                                 [scale=.29]{Bilder/Laser.pn...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -12684,6 +12613,13 @@ Missing character: There is no . in font nullfont!
 Missing character: There is no 2 in font nullfont!
 Missing character: There is no 9 in font nullfont!
 Missing character: There is no ] in font nullfont!
+Missing character: There is no B in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no / in font nullfont!
 Missing character: There is no L in font nullfont!
 Missing character: There is no a in font nullfont!
 Missing character: There is no s in font nullfont!
@@ -13297,13 +13233,13 @@ Type  H <return>  for immediate help.
  ...                                              
                                                   
 l.199 \begin{figure}
-                    [h]
+                    [H]
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 Missing character: There is no [ in font nullfont!
-Missing character: There is no h in font nullfont!
+Missing character: There is no H in font nullfont!
 Missing character: There is no ] in font nullfont!
 
 Overfull \hbox (10.86105pt too wide) in paragraph at lines 197--200
@@ -13322,7 +13258,7 @@ Overfull \hbox (10.86105pt too wide) in paragraph at lines 197--200
 
 ! Undefined control sequence.
 l.201 		\includegraphics
-                        [scale=.5]{Lasery.png}
+                        [scale=.5]{Bilder/LaserY.png}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -13339,12 +13275,19 @@ Missing character: There is no = in font nullfont!
 Missing character: There is no . in font nullfont!
 Missing character: There is no 5 in font nullfont!
 Missing character: There is no ] in font nullfont!
+Missing character: There is no B in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no / in font nullfont!
 Missing character: There is no L in font nullfont!
 Missing character: There is no a in font nullfont!
 Missing character: There is no s in font nullfont!
 Missing character: There is no e in font nullfont!
 Missing character: There is no r in font nullfont!
-Missing character: There is no y in font nullfont!
+Missing character: There is no Y in font nullfont!
 Missing character: There is no . in font nullfont!
 Missing character: There is no p in font nullfont!
 Missing character: There is no n in font nullfont!
@@ -13711,6 +13654,299 @@ Overfull \hbox (65.77766pt too wide) detected at line 210
 \OML/cmm/m/it/10 ^^N[] \OT1/cmr/m/n/10 = [][]
  []
 
+
+! LaTeX Error: The font size command \normalsize is not defined:
+               there is probably something wrong with the class file.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.210 \end{equation}
+                    
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+[1
+! Undefined control sequence.
+<write> \newlabel{diode}{{}{\thepage 
+                                     }}
+l.210 \end{equation}
+                    
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+\newlabel{diode}{{}{}}
+{/usr/local/texlive/2016/texmf-var/fonts/map/pdftex/updmap/pdftex.map}
+! Undefined control sequence.
+<write> \newlabel{kennpump}{{}{\thepage 
+                                        }}
+l.210 \end{equation}
+                    
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+\newlabel{kennpump}{{}{}}
+! Undefined control sequence.
+<write> \newlabel{gl_wirk}{{2}{\thepage 
+                                        }}
+l.210 \end{equation}
+                    
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+\newlabel{gl_wirk}{{2}{}}
+! Undefined control sequence.
+<write> \newlabel{wirkung}{{}{\thepage 
+                                       }}
+l.210 \end{equation}
+                    
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+\newlabel{wirkung}{{}{}}
+! Undefined control sequence.
+<write> \newlabel{slope}{{}{\thepage 
+                                     }}
+l.210 \end{equation}
+                    
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+\newlabel{slope}{{}{}}
+! Undefined control sequence.
+<write> \newlabel{aut1}{{}{\thepage 
+                                    }}
+l.210 \end{equation}
+                    
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+\newlabel{aut1}{{}{}}
+! Undefined control sequence.
+<write> \newlabel{aut2}{{}{\thepage 
+                                    }}
+l.210 \end{equation}
+                    
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+\newlabel{aut2}{{}{}}
+! Undefined control sequence.
+<write> \newlabel{pol}{{7}{\thepage 
+                                    }}
+l.210 \end{equation}
+                    
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+\newlabel{pol}{{7}{}}
+! Undefined control sequence.
+<write> \newlabel{winkel}{{}{\thepage 
+                                      }}
+l.210 \end{equation}
+                    
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+\newlabel{winkel}{{}{}}
+! Undefined control sequence.
+<write> \newlabel{sinc}{{10}{\thepage 
+                                      }}
+l.210 \end{equation}
+                    
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+\newlabel{sinc}{{10}{}}
+! Undefined control sequence.
+<write> \newlabel{pol9}{{}{\thepage 
+                                    }}
+l.210 \end{equation}
+                    
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+\newlabel{pol9}{{}{}}
+! Undefined control sequence.
+<write> \newlabel{pol2}{{}{\thepage 
+                                    }}
+l.210 \end{equation}
+                    
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+\newlabel{pol2}{{}{}}
+! Undefined control sequence.
+<write> \newlabel{1266nm}{{}{\thepage 
+                                      }}
+l.210 \end{equation}
+                    
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+\newlabel{1266nm}{{}{}}
+! Undefined control sequence.
+<write> \newlabel{1286nm}{{}{\thepage 
+                                      }}
+l.210 \end{equation}
+                    
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+\newlabel{1286nm}{{}{}}
+! Undefined control sequence.
+<write> \newlabel{kalib}{{}{\thepage 
+                                     }}
+l.210 \end{equation}
+                    
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+\newlabel{kalib}{{}{}}
+! Undefined control sequence.
+<write> \newlabel{abstand}{{17}{\thepage 
+                                         }}
+l.210 \end{equation}
+                    
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+\newlabel{abstand}{{17}{}}
+! Undefined control sequence.
+<write> \newlabel{wellenlänge}{{18}{\thepage 
+                                              }}
+l.210 \end{equation}
+                    
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+\newlabel{wellenlänge}{{18}{}}
+! Undefined control sequence.
+<write> \newlabel{test}{{}{\thepage 
+                                    }}
+l.210 \end{equation}
+                    
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+\newlabel{test}{{}{}}
+! Undefined control sequence.
+<write> \newlabel{flour}{{}{\thepage 
+                                     }}
+l.210 \end{equation}
+                    
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+\newlabel{flour}{{}{}}
+! Undefined control sequence.
+<write> \newlabel{ueb}{{}{\thepage 
+                                   }}
+l.210 \end{equation}
+                    
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+\newlabel{ueb}{{}{}}
+! Undefined control sequence.
+<write> \newlabel{laser}{{}{\thepage 
+                                     }}
+l.210 \end{equation}
+                    
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+\newlabel{laser}{{}{}}
+! Undefined control sequence.
+<write> \newlabel{spek1}{{}{\thepage 
+                                     }}
+l.210 \end{equation}
+                    
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+\newlabel{spek1}{{}{}}
+! Undefined control sequence.
+<write> \newlabel{lasery}{{}{\thepage 
+                                      }}
+l.210 \end{equation}
+                    
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+\newlabel{lasery}{{}{}}
+]
 Missing character: There is no N in font nullfont!
 Missing character: There is no u in font nullfont!
 Missing character: There is no n in font nullfont!
@@ -15220,9 +15456,9 @@ Overfull \hbox (114.09839pt too wide) detected at line 229
 Here is how much of TeX's memory you used:
  43 strings out of 493014
  455 string characters out of 6133350
- 65601 words of memory out of 5000000
+ 68601 words of memory out of 5000000
  3683 multiletter control sequences out of 15000+600000
  3948 words of font info for 15 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 19i,8n,19p,986b,111s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 19i,8n,19p,986b,119s stack positions out of 5000i,500n,10000p,200000b,80000s
 !  ==> Fatal error occurred, no output PDF file produced!

@@ -67,17 +67,14 @@ Es ist zu erkennen, dass die Intensität gaußförmig verteilt ist, was für ein
 \begin{equation*}
 I(t)=I_0\cdot e^{-At}
 \end{equation*}
-wie er hier verwendet wurde, wobei A=$\frac{4\ln2}{\tau}$ mit $\tau$ der Halbwertsbreite des Pulses, zu erwarten war, da die Autokorrelationsfunktion sich so zu 
-\begin{equation*}
-W(t_D)\propto\int_{-\infty}^{\infty}e^{-A(t-t_D)^2}\:e^{-At^2}\:dt\propto e^{-\frac{A}{2}t_D^2}
-\end{equation*}
+wie er hier verwendet wurde, wobei A=$\frac{4\ln2}{\tau}$ mit $\tau$ der Halbwertsbreite des Pulses, zu erwarten war, da die Autokorrelationsfunktion sich wie Gleichung (\ref{eq:Autokorr}) verhält
 Es ergibt sich also eine Gauß-Kurve mit einer Halbwertsbreite $\tau'$, die in folgendem Zusammenhang mit der Halbwertsbreite des Pulses steht.
 \begin{equation}
 \tau'=\sqrt{2}\:\tau
 \end{equation}
 Eine Auswertung der gemessenen Autokorellationsfunktion ergibt 
 \begin{equation}
-\tau'=(48.677\pm0.538)\text{ps}\Longrightarrow\tau=(34.420\pm0.380)\text{ps}
+\tau'=48.677\text{ps}\Longrightarrow\tau=34.420\text{ps}
 \end{equation}
 \subsection{Winkelabhängigkeit der Intensität der ersten Oberwelle}
 Bei der Überlagerung der einzelnen Impulsanteile nach Durchlauf der Verzögerungsstrecken kommt es jedoch zu einem Problem. Die erzeugte Oberwelle und die Fundamentale Welle stehen im Allgemeinenen nicht in einer festen Phasenbeziehung zueinander, da $\triangle k=2k_\omega-k_{2\omega}\neq0$, anstatt einer einer kontinuirlichen Verstärkung des Signals kommt es so zu sich periodisch wiederholender konstruktiver und destruktiver Interferenz. Um dieses Problem zu beheben wählt man als Überlagerungsmedium eine nicht-lineare Substanz, in diesem Fall Beta-Bariumoxid, welche für verschieden Polarisationsrichtungen des einfallenden Feldes jeweils verschiedene Brechungsindizes aufweist. \newline
@@ -208,7 +205,7 @@ Man erkennt deutlich einen schmalen, intensiven Peak, wie man ihn für einen Las
 \delta_r=\sqrt{\delta_m^2-\delta^2}
 \label{breite}
 \end{equation}
-Nun kann für diesen Versuch angenommen werden, dass die Auflösung des Spektrometers gleich der Bandbreite des HeNe-Spektrums ist, denn es gilt
+Nun kann für diesen Versuch angenommen werden, dass die Auflösung des Spektrometers gleich der gemessenen Bandbreite des HeNe-Spektrums ist, denn es gilt
 \begin{equation}
 \delta=\sqrt{\delta_m^2-\delta_r^2}
 \label{beweis}
@@ -218,17 +215,18 @@ Nun gilt für den Zusammenhang zwischen Frequenzbreite und Wellenlängenbreite d
 \triangle\lambda=\lambda_1-\lambda_2=\frac{c}{f_1}-\frac{c}{f_2}\Rightarrow \triangle f=f_1-f_2=\frac{\triangle\lambda-f_1f_2}{c}=\triangle\lambda\:\frac{c}{\lambda_1\lambda2}
 \label{umrechnung}
 \end{equation}
-Mit $\lambda_1$ und $\lambda_2$ den Wellenlängen bei der halben Höhe des Maximiums beziehungsweise $\lambda_{1,2}=\lambda_{\text{max}}\pm\sigma$ mit $\lambda_{\text{max}}$ der Wellenlänge am Maximum und $\sigma$ der Halbwertsbreite. Anlegen von Gaußkurven an die beiden Graphen in Abbildung \ref{test} ergibt Halbwertsbreiten von 0.044 nm beziehungweise 0.124 nm. Nach Gleichung (\ref{umrechnung}) ergibt sich so ein Mittelwert von $\triangle f=62.98$ Hz = $\delta_m$. Nun beträgt die reale Halbwertsbreite des HeNe-Lasers maximal 10$^{-3}$nm, was einer Frequenzdifferenz von $\delta_r=$ 0.75Hz $\approx0.01\delta_m$ entspricht. Eingesetzt in Gleichung (\ref{beweis}) ergibt sich somit
+Mit $\lambda_1$ und $\lambda_2$ den Wellenlängen bei der halben Höhe des Maximiums beziehungsweise $\lambda_{1,2}=\lambda_{\text{max}}\pm\frac{\sigma}{2}$ mit $\lambda_{\text{max}}$ der Wellenlänge am Maximum und $\sigma$ der Halbwertsbreite. Anlegen von Gaußkurven an die beiden Graphen in Abbildung \ref{test} ergibt Halbwertsbreiten von 0.044 nm beziehungweise 0.124 nm. Nach Gleichung (\ref{umrechnung}) ergibt sich so ein Mittelwert von \newline
+$\triangle f=$60.07 GHz = $\delta_m$. Nun beträgt die reale Halbwertsbreite des HeNe-Lasers maximal 10$^{-3}$nm, was einer Frequenzdifferenz von $\delta_r=$ 0.72GHz $\approx0.01\delta_m$ entspricht. Eingesetzt in Gleichung (\ref{beweis}) ergibt sich somit
 \begin{equation*}
 \delta=\sqrt{\delta_m^2-\delta_r^2}\approx\sqrt{\delta_m^2-(0.01\delta_m)^2}=\sqrt{\delta_m^2-0.0001\delta_m^2}\approx\sqrt{\delta_m^2}=\delta_m
 \end{equation*}
-Man sieht also, dass in diesem Fall das Auflösungsvermögen des Spektrometers in guter Näherung der gemessenen Halbwertsbreite des HeNe-Lasers entspricht. Um nun die Breite des Nd:YLF-Lasers zu messen muss zunächst die Halbwertsbreite der gemessenen Werte bestimmt werden, was wiederum mit einer Gaußfunktion erreicht wird. Somit ergibt sich eine Halbwertsbreite von 0.59 nm und so nach Gleichung (\ref{umrechnung}) eine Frequenzbreite von 160.76 Hz und somit nach (\ref{breite}) eine reale Frequenzbreite von 147.91 Hz.\newline
+Man sieht also, dass in diesem Fall das Auflösungsvermögen des Spektrometers in guter Näherung der gemessenen Halbwertsbreite des HeNe-Lasers entspricht. Um nun die Breite des Nd:YLF-Lasers zu messen muss zunächst die Halbwertsbreite der gemessenen Werte bestimmt werden, was wiederum mit einer Gaußfunktion erreicht wird. Somit ergibt sich eine Halbwertsbreite von 0.47 nm und so nach Gleichung (\ref{umrechnung}) eine Frequenzbreite von 0.13 THz und somit nach (\ref{breite}) eine reale Frequenzbreite von 0.11 THz.\newline
 Als letzes lässt sich nun zusammen mit Hilfe der aus der Autokorrelation bestimmten Impulsdauer das Impulsdauer-Bandbreite-Produkt bestimmen, das ein Maß für die Güte eines Laserpulses darstellt und es gilt
 \begin{equation}
-\delta_r\cdot\tau=5.09\cdot10^{-12}\ll 0.441
+\delta_r\cdot\tau=3.786> 0.441
+\label{impulsbandbreite}
 \end{equation}
-
-
+Der Wert 0.441 beschreibt dabei den theoretischen Minimalwert, der für einen gaußförmigen Puls erreichbar ist. Es ist leicht ersichtlich, dass der experimentell ermittelte Wert diesen Minimalwert ungefähr um den Faktor zehn übertrifft. Um also den Minimalwert erreichen zu können müsste entweder die Impulsdauer oder die Bandbreit um den Faktor 10 erniedrigt werden. Letzteres ist dabei nicht möglich, da die Bandbreite des Lasers durch das Lasersystem vorgegeben und kann ohne Austausch des Lasers nicht verändert werden. Allerdings lässt sich theoretisch die Impulsdauer verringern, für einen Puls, der das minimale Impuls-Bandbreite-Produkt bräuchte man also einen Puls der Dauer von circa 3ps. Dies ist jedoch mit dem genutzten Aufbau nicht möglich, da dessen laut Versuchsanleitung kürzesten erzeugbaren Pulse immer noch eine Länge von 20ps vorweisen, also auch noch zu lange dauern. Um solche idealen Pulse also zu erzeugen bräuchte man, unter Vernächlässigung von Dispersion, durch hohe Intensitäten erzeugte Nichtlinearitäten im Kristall und ähnliche Effekte, die jedoch nicht solche großen Abweichungen erzeugen, einen Aufbau der eine weitaus höhere Modulationstiefe aufweist als der in dem Versuch genutzte.
 %%% Local Variables:
 %%% mode: latex
 %%% TeX-master: "../Laser"

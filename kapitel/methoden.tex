@@ -42,7 +42,7 @@ I_1 = I_0R_1R_2\cdot \exp{2l(\sigma(n_{\ket{2}} - n_{\ket{1}}) - \delta)}
 \]
 Für eine Laseraktivität muss gelten $\sfrac{I_1}{I_0} > 1$, und somit
 \[
-   \frac{\delta}{\sigma} - \frac{ln\big(R_1R_0\big)}{2} < n_{\ket{2}} - n_{\ket{1}}
+   \frac{\delta}{\sigma} - \frac{\ln\big(R_1R_0\big)}{2} < n_{\ket{2}} - n_{\ket{1}}
 \]
 
 \paragraph{Nd:YFL Laser}
@@ -142,10 +142,13 @@ Verwendet man dabei die Näherung des Peaks als eine Gaussfunktion,
 \end{equation}
 So ergeben Gleichungen \ref{equ:autocorr} und \ref{equ:gauss_curve}:
 
-\begin{align*}
+\begin{align}
+\begin{split}
   W_{2\omega} & \propto \int_{-\infty}^{\infty} e^{-At^2} e^{-A(t-t_D)^2} \dd{t} \\
-  & = e^{-\frac{A}{2} t_D^2} \cdot \int_{-\infty}^{\infty} e^{-2At^2} \dd{t}
-\end{align*}
+& = e^{-\frac{A}{2} t_D^2} \cdot \int_{-\infty}^{\infty} e^{-2At^2} \dd{t}
+\label{eq:Autokorr}
+\end{split}
+\end{align}
 Damit lässt sich die Halbwertsbreite der Gaussfunktion bestimmen.
 
 
