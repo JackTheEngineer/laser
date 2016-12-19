@@ -1,13 +1,10 @@
 \section{Theorie}
 \subsection{Funktionsweise eines Lasers}
-Man benötigt zwei entscheidende Physikalische Aspekte, um einen Laser zu bauen.
-Im folgenden wird ein Zweiniveausystem für ein Elektron mit den Zuständen
-$\ket{1}$ und $\ket{2}$ genauer Untersucht. \\
-Der erste Aspekt ist die induzierte Photonenemission. Wenn es ein Elektron in einem
-angeregten Zustand $\ket{2}$ gibt, und es mit einem Photon interagiert, welches die
-Differenzenergie der Zustände $\ket{2} - \ket{1}$ trägt, dann regt sich das
-Elektron ab und emittiert dabei ein Photon welches deselbe Phase,
-Polarisation und Richtung hat, wie das auf das Elektron eingefallene Photon.
+Man benötigt zwei entscheidende physikalische Aspekte, um einen Laser zu bauen.
+Im Folgenden wird ein Zweiniveau-System für ein Elekxtron mit den Zuständen
+$\ket{1}$ und $\ket{2}$ genauer untersucht. \\
+Der erste Aspekt ist die induzierte Photonenemission.
+Befindet sich ein Elektron im Zustand $\ket{2}$ und wird dieses von einem Photon der Energie $E_{\ket{2}} - E_{\ket{1}}$ getroffen, kann das Elektron in einen niederenergetischen Zustand $\ket{1}$ übergehen. Das emitierte Photon weißt dabei die dieselbe Phase, Polarisation, Richtung und vor allem Wellenlänge wie das einfallende Photon auf.
 Wenn es nun sehr viele Elektronen im Zustand $\ket{2}$ gibt, so sorgt der Effekt
 der induzierten Emission für Photonen mit identischen Eigenschaften. Nun benötigt man
 stets mehr Elektronen im Zustand $\ket{2}$ als im Zustand $\ket{1}$, damit es
@@ -15,15 +12,15 @@ zur kontinuierlichen induzierten Photoemission kommen kann.
 \[
   n_{\ket{2}} > n_{\ket{1}}
 \]
-Diese Bedingung heißt Besetzungsinversion. Das ist der Zweite enscheidene Aspekt.
-Mit einem reinen Zweiniveausystem lässt sich die Besetzungsinversion nicht
-erreichen, da der Wirkungsquerschnitt zum anregen der Elektronen derselbe ist,
-wie zum induzierten abregen. Man benötigt noch mindestens ein drittes Pumpniveau $\ket{3}$,
-auf welches man Elektronen mit Photonen der Energie $\ket{3} - \ket{1}$ befördert, 
-damit sich möglichst schnell auf das langlebigere Niveau $\ket{2}$ abregen und von
+Diese Bedingung wird Besetzungsinversion genannt. Das ist der Zweite enscheidende Aspekt.
+Mit einem reinen Zweiniveau-System lässt sich die Besetzungsinversion nicht
+erreichen, da der Wirkungsquerschnitt zum Anregen der Elektronen derselbe ist,
+wie zum induzierten Abregen. Man benötigt noch mindestens ein drittes Pumpniveau $\ket{3}$,
+auf welches man Elektronen mit Photonen der Energie $\ket{3} - \ket{1}$ anregt, 
+von dem diese sich durch schnelle, strahlungsfreie Prozesse auf das langlebigere obere Laserniveau $\ket{2}$ abregen und von
 dort durch induzierte Abregung Laserlicht erzeugen.\\
-Für einen voll funktionsfähigen Laser benötigt es noch zwei gekrümmte Resonatorspiegel, 
-mit reflektionskoeffizienten $R_1$ und $R_2$. Im Laser
+Für einen voll funktionsfähigen Laser werden noch zwei gekrümmte Resonatorspiegel, 
+mit Reflektionskoeffizienten $R_1$ und $R_2$ benötigt. Im Laser
 muss das Licht stets rückgekoppelt werden, sodass es eine stetige induzierte Anregung gibt.
 Für die stetige Rückkopplung müssen die Radien $r_1$ und
 $r_2$  die Stabilitätsbedingung erfüllen. Hierbei bezeichnet $L$ den Abstand zwischen den Spiegeln.
@@ -32,41 +29,41 @@ $r_2$  die Stabilitätsbedingung erfüllen. Hierbei bezeichnet $L$ den Abstand z
 \]
 In dem Resonanzmedium können Photonen absorbiert werden.
 Die Verluste pro Strecke werden mit $\delta$ bezeichnet. Die Laseraktivität ist abhängig von den
-Verlusten $\delta$ pro, davon wie groß die Bestzungsinversion $n_{\ket{2}} - n_{\ket{1}}$ ist,
+Verlusten $\delta$ pro Länge, davon wie hoch die Bestzungsinversion $n_{\ket{2}} - n_{\ket{1}}$ ist,
 und wie groß der Wirkungsquerschnitt $\sigma$ für die induzierte Emission ist.
 Bei einem Durchlauf vom Licht zum ersten Spiegel, zurück zum zweiten Spiegel und wieder zum Anfangspunkt zurück
-berechnet man alle Verlust- und Vervielfältigungseffekte vom Licht durch multiplikation
+berechnet man alle Verlust- und Vervielfältigungseffekte vom Licht durch Multiplikation
 und erhält für die neue Lichtintensität
 \[
 I_1 = I_0R_1R_2\cdot \exp{2l(\sigma(n_{\ket{2}} - n_{\ket{1}}) - \delta)}
 \]
-Für eine Laseraktivität muss gelten $\sfrac{I_1}{I_0} > 1$, und somit
+Für eine Laseraktivität muss gelten $\frac{I_1}{I_0} > 1$, und somit
 \[
    \frac{\delta}{\sigma} - \frac{\ln\big(R_1R_0\big)}{2} < n_{\ket{2}} - n_{\ket{1}}
 \]
 
 \paragraph{Nd:YFL Laser}
-Der im Versuch Verwendete Laser hat ein Neodym-Ion als aktives Material.
-Das äußerste Elektron hat dabei vier Energieniveaus zur Verfügung stehen.
+Der im Versuch verwendete Laser hat ein Neodym-Ion als aktives Material.
+Dem äußersten Elektron stehen vier Energieniveaus zur Verfügung
 Mit Pumplicht aus einer Halbleiterdiode werden die Elektronen im Pumpmaterial
-vom niedrigsten Zustand $\ket{1}$ in den Zustand $\ket{4}$ angeregt. Der Übergang des
+vom niedrigsten Zustand $\ket{1}$ in den Zustand $\ket{4}$ angeregt. Der Übergang
 vom Zustand $\ket{4}$ in den langlebigen Zustand $\ket{3}$ erfolgt sehr
 schnell. Durch induzierte Lichtemission begeben sich die Elektronen in den kurzlebigen
 Zustand $\ket{2}$, von dem sie erneut schnell in den Zustand $\ket{1}$ übergehen.
-So ensteht eine grosse Besetzungsinversion, wiederum zu einer starken Lichintensität
+So ensteht eine große Besetzungsinversion, was wiederum zu einer starken Lichtintensität
 nach einem Durchlauf führt.
 
-\subsection{Erzeugung von Ultrakurz-Lichpulsen}
+\subsection{Erzeugung von Ultrakurz-Lichtpulsen}
 In dem vorher beschriebenen Resonator aus Spiegeln mit der Länge $L$
 entstehen stehende elektromagnetische Longitudinalwellen mit den Wellenlängen
 \begin{equation}
   2L = n \cdot \lambda_n
   \label{equ:resonance}
 \end{equation}
-mit dem Kreisfrequenzabstand $\triangle \omega = \sfrac{\pi c}{L}$. 
-Im Resonator wird aber nur ein Teil aller Wellen welche die Bedingung \ref{equ:resonance}
+mit dem Kreisfrequenzabstand $\triangle \omega = \frac{\pi c}{L}$. 
+Im Resonator wird aber nur ein Teil aller Wellen, welche die Bedingung \ref{equ:resonance}
 erfüllen, verstärkt. 
-Erzeugt man akustiche Schwingungen mit der Frequenz $\Omega$ in einem Quarzkristall, 
+Erzeugt man akustiche Schwingungen mit der Frequenz $\Omega$ in einem Quarzkristall
 und setzt diesen Quarzkristall in die Resonatorstrecke, so werden durch periodische Transmission
 der Kreisfrequenz $\omega_n \pm \Omega$. Ist dabei $\Omega = \triangle \omega$
 bringt man durch Interferenzeffekte alle Longitudinalmoden in eine feste Phasenbeziehung
@@ -83,18 +80,18 @@ wie sich die Polarisation in Abhängigkeit des elektrischen Feldes im Material �
 \begin{equation}
   \va{P}(\va{E}) = \epsilon_0\bigg(\sum_j \chi^{(1)}_{ij} E_j\bigg)
 \end{equation}
-Die partielle Differenzialgleichung in einer dimension für das elektrische Feld lautet dabei:
+Die partielle Differenzialgleichung in einer Dimension für das elektrische Feld lautet dabei:
 \begin{equation}
   \pdv[2]{E}{x} - \frac{\epsilon_0(1+\chi^{(1)})}{c}\pdv[2]{E}{t} = 0
 \end{equation}
-Diese Differenzialgleichung wird durch gelöst, durch ein Elektrisches Feld in Form ebener Wellen gelöst:
+Diese Differenzialgleichung wird durch ein elektrisches Feld in Form ebener Wellen gelöst:
 \begin{equation}
   E = E_0\exp{i(\omega t - k_{\omega}x)} + C
 \end{equation}
 
 \paragraph{Nichtlineare Optik}
 In der nichtlinearen Optik wird die durch verschiedende Quanteneffekte beeinflusste Polarisation
-eines mittels eines Taylorpolynoms approximiert.
+eines Mediums mittels eines Taylorpolynoms approximiert.
 \begin{align*}
   \va{P}(\va{E}) &= \epsilon_0\bigg(&\sum_j  \chi^{(1)}_{ij} E_j  &+  \sum_{jk} \chi_{ijk}^{(2)} E_j E_k + \sum_{jk\ell} \chi_{ijk\ell}^{(3)} E_j E_k E_\ell + \cdots \bigg)\\
   \va{P}(\va{E}) &= &\va{P_L}\ \ \ \  &+\ \ \ \ \va{P_{NL}}
@@ -105,8 +102,8 @@ Die partielle Differenzialgleichung lässt sich mit einer zusätzlichen Störung
   \pdv[2]{E}{x} - \frac{\epsilon_0(1+\chi^{(1)})}{c}\pdv[2]{E}{t} = \frac{1}{c}\pdv[2]{P_{NL}}{t}
   \label{equ:Nl-dgl}
 \end{equation}
-\paragraph{Erzeugung der zweiten harmonischen}
-Betrachtet man nur die nichtlinearität zweiter Ordnung, so verweinfacht sich die Gleichung \ref{equ:Nl-dgl}
+\paragraph{Erzeugung der zweiten Harmonischen}
+Betrachtet man nur die Nichtlinearität zweiter Ordnung, so vereinfacht sich die Gleichung \ref{equ:Nl-dgl}
 zu Gleichung \ref{equ:secondorder_harmonic_generation}
 \begin{equation}
   \pdv[2]{E}{x} - \frac{\epsilon_0(1+\chi^{(1)})}{c}\pdv[2]{E}{t} = \frac{\epsilon_0}{c}\pdv[2]{\chi^{(2)}E^2}{t}
@@ -116,31 +113,30 @@ Der Quellterm $\frac{\epsilon_0}{c}\pdv[2]{\chi^{(2)}E^2}{t}$ sorgt für eine in
 
 \subsection{Doppelbrechung}
 Doppelbrechung ist der Effekt unterschiedlichder Brechungsindizes $n$ in Abhängigkeit von
-der Polarisationsrichtung des Lichtes im Bezug zu einer festen Ebene im doppelbrechenden Kristall. Dieser Effekt ensteht dadurch dass die atomaren Strukturen im Kristall nicht rotationssymmetrisch sind. Mathematisch
-lässt sich erläutern, dass die elektrische Suszeptibilität im allgemeinen ein Tensor ist, und somit Richtungseingenschaften aufweist. 
-Bei einem optischen Kristall ist es enscheidend, dass die Brechungsindizes und damit die Lichtgeschwindigkeiten
-im Material jeweils die selben für die Grund- als auch die Oberschwingung sind. Ist das nicht der Fall,
-so interferiert die am Ort $x$ erzeuge zweite harmonische Welle mit der am Ort $x + \triangle x$ erzeugen Welle und löscht sich aus.
-Gewisse Materialien wie ein Einkristall von $\beta$-Bariumoxid sind doppelbrechend und optisch aktiv,
-und lassen sich damit gut für die Erzeugung der zweiten harmonischen bei gepulsten Lasern nutzen.
+der Polarisationsrichtung des Lichtes im Bezug zu einer festen Ebene im doppelbrechenden Kristall. Dieser Effekt ensteht dadurch, dass die atomaren Strukturen im Kristall nicht rotationssymmetrisch sind. Mathematisch
+lässt sich erläutern, dass die elektrische Suszeptibilität im Allgemeinen ein Tensor ist, und somit Richtungseingenschaften aufweist. 
+Bei einem optischen Kristall ist es entscheidend, dass die Brechungsindizes und damit die Lichtgeschwindigkeiten
+im Material jeweils die selben für die Grund- als auch die Oberschwingung sind, was in Abschnitt 5.8 näher erläutert wird.
+Gewisse Materialien wie ein $\beta$-Bariumoxideinkristall sind doppelbrechend und optisch aktiv,
+und lassen sich damit gut für die Erzeugung der zweiten Harmonischen bei gepulsten Lasern nutzen.
 
 \subsection{Autokorrelationsmessung}
-Bei Lichtpulsen im Femptisekundenbereich ist jegliche Elektronik zu langsam, um die Halbwertsbreite
+Bei Lichtpulsen im Femtosekundenbereich ist jegliche Elektronik zu langsam, um die Halbwertsbreite
 eines solchen Lichtpulses zu bestimmen. Um dieses Problem zu umgehen, 'tastet' man den Puls mit sich selber ab.
-Dabei wird Lichtpuls mit einem halbdurchlässigen Spiegel gespalten, ein Teil des Pulses durchläuft eine feste Strecke und der andere Teil eine veränderbare Strecke. Danach werden die beiden Pulse wieder zusammengeführt.
-Das führt dazu, dass ein genau kontrollierbar zeitlich versetzt zum anderen kommt.
-Lässt man beide nun durch einen optisch aktiven Kristall $\beta$-Bariumoxid laufen, so ist die Intensitität der zweiten Harmonischen proportional zur mathematischen Faltung der beiden Peak-Kurven.
+Dabei wird der Lichtpuls mit HIlfe eines halbdurchlässigen Spiegels gespalten, ein Teil des Pulses durchläuft eine feste Strecke und der andere Teil eine veränderbare Strecke. Danach werden die beiden Pulse wieder zusammengeführt.
+Das führt dazu, dass ein Puls genau kontrollierbar zeitlich versetzt zum anderen kommt.
+Lässt man beide nun durch einen optisch aktiven $\beta$-Bariumoxidkristall laufen, so ist die Intensitität der zweiten Harmonischen proportional zur mathematischen Faltung der beiden Peak-Kurven.
 \begin{equation}
   W_{2\omega} \propto \int_{-\infty}^{\infty}{I_L(t)I_L(t-t_D)\dd{t}}
   \label{equ:autocorr}
 \end{equation}
 Dabei beschreibt die Funktion $I_L$ die ursprüngliche Form des elektromagnetischen Pulses.
-Verwendet man dabei die Näherung des Peaks als eine Gaussfunktion,
+Verwendet man dabei die Näherung des Peaks als eine Gaußfunktion,
 \begin{equation}
   I_L = I_0 \cdot e^{-\big(\frac{2\sqrt{\ln(2)}t}{\tau}\big)^2} = I_0 \cdot e^{-At^2}
   \label{equ:gauss_curve}
 \end{equation}
-So ergeben Gleichungen \ref{equ:autocorr} und \ref{equ:gauss_curve}:
+so ergeben Gleichungen \ref{equ:autocorr} und \ref{equ:gauss_curve}:
 
 \begin{align}
 \begin{split}
@@ -149,7 +145,7 @@ So ergeben Gleichungen \ref{equ:autocorr} und \ref{equ:gauss_curve}:
 \label{eq:Autokorr}
 \end{split}
 \end{align}
-Damit lässt sich die Halbwertsbreite der Gaussfunktion bestimmen.
+Damit lässt sich die Halbwertsbreite der Gaufunktion bestimmen.
 
 
 %%% Local Variables:
