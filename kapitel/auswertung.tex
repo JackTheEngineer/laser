@@ -9,11 +9,11 @@ Trägt man nun die gemessenen Werte gegeneinander auf, erhält man die in Abbild
 		\caption{Kennlinie der Pumpdiode}
 		\label{kennpump}
 \end{figure}
-Der Detektor hat dabei nicht die einfallende Leistung, sondern lediglich die Zahl der einfallenden Photonen gemessen, in Abbildung \ref{kennpump} wurde jedoch bereits die Umrechnung in Leistung durchgeführt. Dies ist möglich durch die zusätzliche Information, dass die Laserleistung der Diode bei einem Strom von 20A 10.5W beträgt. In diesem Experiment entspricht dies einer Zahl von 1700 womit sich als Umrechnungsfaktor
+Der Detektor hat dabei nicht die einfallende Leistung, sondern lediglich die relative Intensität gemessen, in Abbildung \ref{kennpump} wurde jedoch bereits die Umrechnung in Leistung durchgeführt. Dies ist möglich durch die zusätzliche Information, dass die Laserleistung der Diode bei einem Strom von 20A 10.5W beträgt. In diesem Experiment entspricht dies einer Zahl von 1700 womit sich als Umrechnungsfaktor
 \begin{equation}
 1 \text{ Count}\equiv 0.006\text{W}
 \end{equation}
-Wie leicht zu erkennen ist, gibt es bis zu einem Strom von 8 A keine nennenswerte Strahlleistung. Dies entpricht nicht ganz der Realität, da aufgrund der hohen Empfindlichkeit des Detektors Filter in den Strahlengang gestellt wurden, um eine Sättigung zu verhindern. Wie später zu sehen ist, erzeugt die Diode auch in diesem Strombereich, dem Floureszenzbereich, Strahlung, die hier allerdings unterdrückt wird.  \newline
+Wie leicht zu erkennen ist, gibt es bis zu einem Strom von 8 A keine nennenswerte Strahlleistung. Dieser Strombereich spielt zwar für die Leistung der Diode keine Rolle, es ist allerding interessant anzumerken, dass ies nicht ganz der Realität entpricht, da aufgrund der hohen Empfindlichkeit des Detektors Filter in den Strahlengang gestellt wurden, um eine Sättigung zu verhindern. Wie später zu sehen ist, erzeugt die Diode auch in diesem Strombereich, dem Floureszenzbereich, Strahlung, die hier allerdings unterdrückt wird.  \newline
 Erhöht man den Strom weiter, steigt die Laserleistung langsam an, bis man ab einem Strom von 9.5A die Lasertätigkeit erreicht hat, in der die Laserleistung der Diode linear mit dem Strom ansteigt. \newline
 Der offensichtlich aus der Reihe fallende Wert bei einem Strom von 16.5A beruht wahrscheinlich auf einem falschen Ablesen, er wird aber nicht weiter berücksichtigt, da er die Berechnung weiterer Ergebnisse nicht oder zumindest nicht merklich stört. \newline
 Zur Ermittlung des Wirkungsgrades, 
@@ -90,7 +90,7 @@ n(\theta)=n_\omega=n_{o,\omega}
 \end{equation}
 erfüllt sein. Setzt man dies in \ref{pol} ein, löst nach $\theta$ auf und setzt die passenden Werte für die Brechungsindices ein, so ergibt sich ein Phasenanpassungswinkel von
 \begin{equation}
-\theta=0.40=21.10^\circ
+\theta=0.40=23.10^\circ
 \end{equation}
 Dies entspricht allerdings nur der Ausrichtung des einfallenden Pulses zu der optischen Achse, nicht zu der Kristalloberfläche. Die Abhängigkeit Intensität von der Ausrichtung des Kristalls ist in Abbildung \ref{winkel} gezeigt.
 \begin{figure}[H]
@@ -109,11 +109,10 @@ folgt die Intensität einer sinc$^2$-Kurve, was aus Abbildung \ref{winkel} ersic
 \begin{equation}
 I=258.684\cdot\text{sinc}^2\left(24.657\cdot\theta-0.639\right)+28.726
 \end{equation}
-Die Intensität wird dabei in Einheiten von Counts, also der Anzahl der einfallenden Photonen angegeben und ist somit einheitenlos. \newline
 Um nun die Maxima beziehungsweise Minima der Intensität zu finden, müssen die Winkel ermittelt werden, bei denen das Argument der sinc-Funktion gleich $\pi$ oder $\frac{\pi}{2}$ sind. Es ergibt sich also
 \begin{eqnarray}
-24.657\cdot\theta-0.639\overset{!}{=}\pi\Longrightarrow\theta_1=0.153\\
-24.657\cdot\theta-0.639\overset{!}{=}\frac{\pi}{2}\Longrightarrow\theta_2=0.090
+24.657\cdot\theta-0.639\overset{!}{=}\pi\Longrightarrow\theta_1=0.153\:\text{rad}\\
+24.657\cdot\theta-0.639\overset{!}{=}\frac{\pi}{2}\Longrightarrow\theta_2=0.090\:\text{rad}
 \end{eqnarray}
 Somit ergibt sich eine effetkive Weglänge l$_{eff}$ der Oberwelle durch den Kristall von 
 \begin{equation}
@@ -124,7 +123,7 @@ Der Ausdruck für den Winkel $\alpha$ in dem Kristall ergibt sich aus dem Snelli
 Womit sich eine Wellenvektorfehlanpassung $\triangle k$ von 
 \begin{equation}
 \triangle k\cdot \frac{l_{eff}}{2}=\left\{\begin{array}{ll} \pi \Longrightarrow \triangle k=1.563\frac{1}{\text{mm}} \\\\
-\frac{\pi}{2}\Longrightarrow \triangle k=1.568\frac{1}{\text{mm}}  \end{array}\right.
+\frac{\pi}{2}\Longrightarrow \triangle k=0.784\frac{1}{\text{mm}}  \end{array}\right.
 \end{equation}
 \subsection{Abhängigkeit der Intensität der ersten Oberwelle von der Laserintensität}
 Die Intensität hängt jedoch nicht nur von der Ausrichtung des Kristalls aus, sondern natürlicherweise auch von der Ausgangintensität des Lasers ab. Im Folgenden wurde also die Laserintensität vor Aufteilung des Pulses durch ein $\frac{\lambda}{2}$-Plättchen moduliert. \newline
@@ -140,7 +139,7 @@ gilt, es also ein quadratischer Zusammenhang gilt, was auch die graphische Auswe
 		\label{pol9}
 	\end{center}
 \end{figure}
-Man erkennt, dass das Polynom zwar sämtliche Messpunkte jeweils genau trifft, betrachtet man jedoch die Vorfaktoren des Polynoms in Abbildung \ref{pol9}, so ist leicht einzusehen, dass diese für Potenzen > 2 so verschwindend klein sind, dass sie zu vernachlässigen sind. Man erhält also ein Polynom 2. Grades als Ausgleich, was auch die Rechnung ergeben hat. Abbildung \ref{pol2} zeigt genau dieses Verhalten.
+Man erkennt, dass das Polynom zwar sämtliche Messpunkte jeweils genau trifft, jedoch liefert eine genauere Betrachtung der Anpassungsfunktion, dass die Vorfaktoren für Potenzen größer 2 maximal der Ordnung 10$^{-5}$ sind. Somit ist leicht einzusehen, dass die Beiträge dieser Potenzen > 2 so verschwindend klein sind, dass sie zu vernachlässigen sind. Man erhält also ein Polynom 2. Grades als Ausgleich, was auch die Rechnung ergeben hat. Abbildung \ref{pol2} zeigt genau dieses Verhalten.
 \begin{figure}[H]
 	\begin{center}
 		\includegraphics[scale=.5]{Bilder/IntPol2.png}
@@ -154,14 +153,14 @@ Beim im Folgenden beschriebenen Versuchsteil wurden die Spektren der Laser mit H
 Das Spektrometer wurde dabei auf das Doppelte, was nur dem hier voliegenden Versuchsaufbau geschuldet ist, der bekannten Wellenlänge des Lasers von 1266 nm eingestellt und ein Spektrum aufgenommen. Die zweite Messung wurde dann ebenfalls mit dem HeNe-Laser durchgeführt, allerdings wurde das Spektrometer hier auf 1286 nm gestellt, was eine Verschiebung der die Wellenlängen registrierenden Pixel hervorruft. In Abbildung \ref{1266nm} und \ref{1286nm} sind die zueinander verschobenen Linien des HeNe-Laserspektrums zu sehen.
 \begin{figure}[H]
 	\begin{center}
-		\subfigure[1266 nm]{\includegraphics[scale=0.29]{Bilder/Kal1.png}\label{1266nm}}
-		\subfigure[1286 nm]{\includegraphics[scale=0.29]{Bilder/Kal2.png}\label{1286nm}}
+		\subfigure[$\lambda_\text{set}$=1266 nm]{\includegraphics[scale=0.29]{Bilder/Kal1.png}\label{1266nm}}
+		\subfigure[$\lambda_\text{set}$=1286 nm]{\includegraphics[scale=0.29]{Bilder/Kal2.png}\label{1286nm}}
 		\label{kalib}
 	\end{center}
 \end{figure}
 Um die scharfen Linien besser zu sehen wurden, hier statt der üblichen Punktdiagramme Liniendiagramme verwendet. Man sieht deutlich wie schmal die Frequenzbreite für diesen Laser ist. Der Peak hat in Abbildung \ref{1266nm} eine Breite von drei Pixeln beziehungsweise zwei Pixeln in Abbildung \ref{1286nm}. Der Abstand der beiden Linien beträgt hier 118 Pixel, womit sich mit 
 \begin{equation}
-\triangle\lambda=\frac{10\text{nm}}{\triangle\text{Pixel}}=0.00847 \frac{\text{nm}}{\text{Pixel}}
+\triangle\lambda=\frac{10\text{nm}}{\triangle\text{Pixel}}=\frac{10\text{nm}}{118}\approx0.08 \frac{\text{nm}}{\text{Pixel}}
 \label{abstand}
 \end{equation}
 ergibt. Jedes Pixel deckt also einen Wellenlängenbereich von 0.00847 nm ab. Unter Berücksichtigung eines wellenlängenabhängigen Offsets des Spektrometers ergibt sich für die Wellenlänge in Abhängigkeit des aktivierten Pixels
@@ -179,7 +178,7 @@ mit $\lambda_{\text{set}}$ der an dem Spektrometer eingestellten Wellenlänge. Z
 \end{figure}
 Anzumerken ist, dass aus nicht näher zu bestimmenden Gründen die gemessene Wellenlänge um circa 10 nm gegenüber der eigentlichen Wellenlänge des Laserlichts verschoben ist. Diese Verschiebung ist auch bei den anderen aufgenommenen Spektren zu beobachten, beträgt dort jedoch nur 2-3 nm. Da für die weiteren Betrachtungen die genaue Wellenlänge des Peaks nicht von großer Bedeutung ist, sondern nur dessen Breite, auf die die Verschiebung keine Auswirkung hat, wird diese nicht weiter berücksichtigt.\newline
 Nach dieser Kalibrierung wurde das Spektrometer auf 1590 nm eingestellt, was der tatsächlichen Wellenlänge der Pumpdiode von 795 nm entspricht. \newline
-In Abbildung \ref{spek1} ist das Spektrum der Laserdiode für die in \ref{diode} angesprochenen verschiedenen Leistungsbereiche der Laserdiode. Wie bereits erwähnt, entspricht Abbildung \ref{kennpump} im Bereich \newline < 8 A nicht der Wahrheit. Wie in Abbildung \ref{flour} zu sehen ist, wird auch für geringe Stromstärken Licht emitiert. Diese Emission beruht allerdings auf spontaner und nicht auf der für Laser benötigten stimulierten Emission, weshalb dieser Bereich auch Floureszenzbereich genannt wird. Aus diesem Grund weist man auch ein weitaus breiteres Spektrum nach als man es für einen Laser erwarten würde. Außerdem ist zu bemerken, die gemessene Intensität um einen Faktor 4-5 niedriger ist als im Übergangs - oder Laserbereich, was erklärt, warum in Abbildung \ref{kennpump} für diese Stromstärken kein Licht nachgewiesen wurde, es wurde schlicht von den vor dem Detektor angebrachten Filtern komplett unterdrückt. \newline 
+In Abbildung \ref{spek1} ist das Spektrum der Laserdiode für die in \ref{diode} angesprochenen verschiedenen Leistungsbereiche der Laserdiode. Wie bereits erwähnt, entspricht Abbildung \ref{kennpump} im Bereich \newline < 8 A nicht der Realität. Wie in Abbildung \ref{flour} zu sehen ist, wird auch für geringe Stromstärken Licht emittiert. Diese Emission beruht allerdings auf spontaner und nicht auf der für Laser benötigten stimulierten Emission, weshalb dieser Bereich auch Floureszenzbereich genannt wird. Aus diesem Grund weist man auch ein weitaus breiteres Spektrum nach als man es für einen Laser erwarten würde. Außerdem ist zu bemerken, die gemessene Intensität um einen Faktor 4-5 niedriger ist als im Übergangs - oder Laserbereich, was erklärt, warum in Abbildung \ref{kennpump} für diese Stromstärken kein Licht nachgewiesen wurde, es wurde schlicht von den vor dem Detektor angebrachten Filtern komplett unterdrückt. \newline 
 In Abbildung \ref{ueb} ist der so genannte Übergangsbereich zu sehen, welcher in Abbildung \ref{kennpump} von dem langsamen Anstieg der gemessenen Intensität beschrieben wird. In dem Spektrum selbst ist immer noch ein breiter, auf Floureszenz beruhender Anteil zu sehen, in dessen Mitte sich jedoch bereits ein sehr schmaler und intensiverer Peak ausbildet, der auf einen allmählichen Beginn der Lasertätigket zurückzuführen ist.
 \begin{figure}[H]
 	\begin{center}
