@@ -30,9 +30,31 @@ Die Frequenz des Lasers ist also sechs Größenordnungen größer als der Freque
 \subsection{Auswirkung der spektralen Halbwertsbreite auf die Impulsdauer}
 Nach Gleichung (\ref{impulsbandbreite}) muss im Bereich des Idealwertes von 0.441 bei einer kleinen Bandbreite des Lasers die Dauer dementsprechend länger werden. Andersrum kann für ein umso breiteres Laserspektrum ein umso kürzerer Puls erzeugt werden. Hierfür spielt die Anzahl der gekoppelten Moden eine wichtige Rolle, da sich mit steigender Anzahl der gekoppelten Moden die Impulsdauer verringert.
 \subsection{Nichtlineare Polarisation auf atomarer Ebene}
-Bei linearer Polarisation werden Elektronen innerhalb eines Atoms von ihren eigentlichen Bahnen ausgelenkt und bilden so einen Dipol. Mit zunehmender Feldstärke werden die Elektronen immer weiter ausgelenkt, bis sie nicht mehr klar einem Atom zuzuordnen sind und sich so zwischen mehreren Atomen aufteilen. Dies führt dann zu nichtlinearen Beiträgen der Polarisation.
-\subsection{Gleichheit der Brechungsindices von Grund - und Oberwelle}
-Da die Lichtgeschwindigkeit in einem Medium nur von dessen Brechungsindex bestimmt wird, müssen die Brechungsindices der Grund - und der Oberwelle indentisch sein, um eine konstruktive Interferenz der beiden Wellen zu garantieren. Wären die Brechungsindices nicht identisch, so bewegt sich eine der Wellen schneller durch den Kristall als die andere und es kommt so zu keiner kontinuierlichen konstruktiven Interferenz, da die eine Welle der anderen vorauseilt und sozusagen davonläuft. 
+Elektronen in einem Atom spüren ein Potential, dessen Verlauf in Abhängigkeit des Abstandes vom Kern schematisch in Abbildung \ref{Potential} abgebildet ist. 
+\begin{figure}[H]
+	\begin{center}
+		\includegraphics[scale=.75]{Bilder/Potential.png}
+		\caption{Potential eines Elektrons im Atom}
+		\label{Potential}
+	\end{center}
+\end{figure}
+Legt man nun ein elektrisches Feld an das Atom an, so werden die Elektronen um ihre Gleichgewichtslage im Mininum des Potentials ausgelenkt. Ist das elektrische Feld dabei klein genug, so kann dass Potential in Umgebung des Minimums quadratisch annähern. Man erhält also eine Rückstellkraft proportional zur Auslenkung x, die wiederrum proportional zu dem angelegten elektrischen Feld sind. Nutzt man nun die Definiiton des Dipolmoments p
+\begin{equation}
+	p=xq
+\end{equation}
+mit q der Ladung, so erhält man ein Dipolmoment proportional zu E. Da die Polarisation eines Körpers lediglich dessen Dipolmomentdichte beschreibt ist sie somit linear für kleine Felder. \newline
+Ist das angelegt Feld nun immer größer, so werden die Elektronen immer stärker aus ihrer Gleichgewichtslage ausgelenkt und aus Abbildung (\ref{Potential}) ist leicht ersichtlich, dass eine quadratische Näherung des Potentials nicht mehr ausreicht. Dadurch erhält man in der Rückstellkraft Beiträge höherer Ordnungen der Auslenkungen, wodurch auch das Dipolmoment nicht mehr linear wird, sondern mit höherer Feldstärke höhere und höhere Ordnungen berücksichtigt werden müssen. Aus dieser Nichtlinearität des Dipolmoments für hohe Felder folgt dann auch direkt eine Nichtlinearität der Polarisation. 
+\subsection{Gleichheit der Brechungsindizes von Grund - und Oberwelle}
+Da die Lichtgeschwindigkeit in einem Medium nur von dessen Brechungsindex bestimmt wird, müssen die Brechungsindices der Grund - und der Oberwelle indentisch sein, um eine effektive Erzeugung letzterer zu garantieren. \newline
+Sind die Brechungsindizes für beide gleich, so bewegen sich beide Wellen gleich schnell durch den Kristall, für die Wellenvektoren beider Wellen gilt $\triangle$k=2k$_\omega$-k$_{2\omega}$=0. Die Fundamentale k$_\omega$ erzeugt nun am Ort x im Kristall eine Oberwelle k$_{2\omega}$. Wird nun eine weiter Oberwelle am Ort x-$\triangle$x erzeugt, so ist diese mit der am Ort x erzeugten Oberwelle in Phase und beide können konstruktiv interferieren
+Wären die Brechungsindices nicht identisch, so bewegt sich eine der Wellen schneller durch den Kristall als die andere und eilt dieser damit voraus. Somit ist eine später erzeugte Oberwelle im Allgemeinen nicht in Phase mit einer früheren, es kommt nicht zu konstruktiver Interferenz. 
+\begin{figure}
+	\centering
+	\includegraphics[width=0.7\linewidth]{Bilder/Oberwelle}
+	\caption{Schematische Darstellung der Oberwellenerzeugung}
+	\label{fig:oberwelle}
+\end{figure}
+Die ist in Abbildung \ref{fig:oberwelle}\footnote{de Dood, M.J.A. (2006), S. 5}schematisch dargestellt. Hier sind die Brechungsindizes für Fundamentale (in rot) und Oberwellen (in blau) gleich und jede erzeugte Oberwelle ist mit der vorigen in Phase. Wäre nun beispielsweise die Fundamentale schneller, so wären die oberen Oberwellen in der Abbildung, also die später erzeugten relativ zu den vorderen verschoben. Es kommt somit zu einer Phasenverschiebung und damit zu keiner konstruktiven Interferenz
 \subsection{Bestimmung der Impulsform aus Autokorrelationsmessung}
 Wie Gleichung (\ref{eq:Autokorr}) leicht anzusehen ist, ist die Autokorrelationsfunktion symmetrisch bezüglich der y-Achse. Das heißt man kann die genaue Form des Laserpulses nicht aus der Autokorrelationsmessung bestimmen, da nicht eindeutig bestimmt werden kann, ob der ursprüngliche Puls nur zum dem Ursprung linksseitigen oder nur dem rechtsseitigen Teil des Graphen beigetragen hat und der jeweils andere lediglich durch Spiegelung aufgrund der Symmetrie entstanden ist oder gar der gesamte Graph den Puls darstellt.
 %%% mode: latex
